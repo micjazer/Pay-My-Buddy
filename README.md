@@ -1,7 +1,7 @@
 ### PROJET PÉDAGOGIQUE OpenClassrooms SUR LE THÈME : CONCEVOIR UNE APPLICATION WEB EN Java DE À Z.
- 
-![Pay My Buddy.png](Pay%20My%20Buddy.png)
 
+<img width="250" height="250" alt="Pay My Buddy" src="https://github.com/user-attachments/assets/522e3600-e683-426e-b64f-3aa808ca40f1" />
+ 
 * PayMyBuddy est une plateforme web permettant aux utilisateurs de gérer leurs contacts et de réaliser des transactions entre amis.`
 
 
@@ -26,7 +26,7 @@
 ### Architecture de l'application Patern MVC
 L'application suit le modèle MVC (Model - View - Controller) avec la structure suivante :
 
-![mvc.png](resources/mvc.png)
+<img width="847" height="225" alt="mvc" src="https://github.com/user-attachments/assets/0a5e7da7-b4dc-4c65-957e-582cf9f9c13d" />
 
 #### Le but du MVC :
 * Le pattern MVC (Model-View-Controller) vise à séparer les responsabilités :
@@ -49,7 +49,9 @@ L'application suit le modèle MVC (Model - View - Controller) avec la structure 
 
 ### Modèle Physique de Données :
 
-![bdd.png](resources/bdd.png)
+<img width="1751" height="921" alt="bdd" src="https://github.com/user-attachments/assets/01ea40c4-03d2-41a5-830c-28955ae100af" />
+
+
 
 #### Voici une analyse exhaustive et détaillée, structurée en 5 parties : 
 * Entités
@@ -61,24 +63,28 @@ L'application suit le modèle MVC (Model - View - Controller) avec la structure 
 
 ####   Users (utilisateurs)
 
-![users.png](resources/users.png)
+<img width="1102" height="290" alt="users" src="https://github.com/user-attachments/assets/77710ecc-a16f-4eff-a0b1-89427460e786" />
+
 
 #### Accounts (comptes utilisateurs)
 
-![Accounts.png](resources/Accounts.png)
+<img width="1097" height="129" alt="Accounts" src="https://github.com/user-attachments/assets/cdb8374e-6def-40dd-923d-84476f3321dc" />
+
 
 
 Chaque utilisateur dispose d’un seul compte, et chaque compte est lié à une règle métier.
 
 ##### Transactions (opérations financières)
 
-![transactions.png](resources/transactions.png)
+<img width="1023" height="208" alt="transactions" src="https://github.com/user-attachments/assets/919daa6c-c71b-4002-87db-753a41949ec6" />
+
 
 Chaque transaction est émise par un utilisateur (give) et reçue par un autre (receive).
 
 ##### Relationships (relations amicales)
 
-![Relationships.png](resources/Relationships.png)
+<img width="1016" height="138" alt="Relationships" src="https://github.com/user-attachments/assets/5cc424ac-2e65-4241-8e63-b5fa5c6d3722" />
+
 
 * Relation symétrique entre deux utilisateurs. 
 * Elle contient deux colonnes de type id_user_1 et id_user_2 (non visibles ici).
@@ -90,7 +96,8 @@ Chaque utilisateur peut avoir 0 ou 1 règle, et chaque règle est assignée à u
 
 #### 2. Relations (associations)
 
-![Relations.png](resources/Relations.png)
+<img width="1295" height="213" alt="Relations" src="https://github.com/user-attachments/assets/eb28a372-dfa0-4c8b-8714-f85f964ca3dd" />
+
 
 #### Relations :
 
@@ -101,7 +108,7 @@ Chaque utilisateur peut avoir 0 ou 1 règle, et chaque règle est assignée à u
 
 #### 3. Contraintes d’intégrité
 
-![Contraintes int.png](resources/Contraintes int.png)
+<img width="1718" height="248" alt="Contraintes int" src="https://github.com/user-attachments/assets/5744b2b7-7ac7-48b7-8a47-24b2e3e8f534" />
 
 
 #### 4. Synthèse fonctionnelle
