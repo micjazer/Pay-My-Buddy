@@ -24,6 +24,10 @@
 - **Tailwind CSS** - Framework CSS pour la conception de l'interface utilisateur.
 
 ### Architecture de l'application Patern MVC
+
+<img width="868" height="1236" alt="mvc global" src="https://github.com/user-attachments/assets/2bb1455d-1425-4aa5-b94c-5e80d07ac1f1" />
+
+
 L'application suit le modèle MVC (Model - View - Controller) avec la structure suivante :
 
 <img width="847" height="225" alt="mvc" src="https://github.com/user-attachments/assets/0a5e7da7-b4dc-4c65-957e-582cf9f9c13d" />
@@ -113,7 +117,10 @@ Chaque utilisateur peut avoir 0 ou 1 règle, et chaque règle est assignée à u
 
 #### 4. Synthèse fonctionnelle
 
-![Synthese fonctionnelle.png](resources/Synthese fonctionnelle.png)
+<img width="1121" height="211" alt="Synthese fonctionnelle" src="https://github.com/user-attachments/assets/44ff890f-22b1-4792-8f88-7f16a6d5720d" />
+
+
+
 
 
 ## MISE EN PLACE
